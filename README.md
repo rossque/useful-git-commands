@@ -15,7 +15,7 @@ git push -f origin main
 ```
 
 ### Set global GIT name and email
-Change your GIT credentials (globally) on your machine.
+Change your GIT configuration (globally) on your machine.
 
 ``` shell
 git config --global user.name "<name>"
