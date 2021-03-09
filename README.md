@@ -13,3 +13,11 @@ git branch -D main && \
 git branch -m main && \
 git push -f origin main
 ```
+
+### Set global GIT name and email
+Change your GIT credentials (globally) on your machine.
+
+``` shell
+git config --global user.name "<name>"
+git config --global user.email <email-address>
+```
