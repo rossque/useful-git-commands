@@ -8,7 +8,7 @@ All files are will remain as they are. Your "main" branch will be replaced with 
 ``` shell
 git checkout --orphan temp_branch && \
 git add . && \
-git commit -am "Initial commit" && \
+git commit -am "Initial release" && \
 git branch -D main && \
 git branch -m main && \
 git push -f origin main
