@@ -21,3 +21,16 @@ Change your GIT configuration (globally) on your machine.
 git config --global user.name "<name>"
 git config --global user.email <email-address>
 ```
+
+### Prevent GIT checking file permissions
+
+Locally
+``` shell
+git config --get --local  core.filemode
+```
+
+Globally
+``` shell
+git config --get --global  core.filemode
+```
+
