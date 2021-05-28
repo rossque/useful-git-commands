@@ -29,7 +29,7 @@ Check permissions are true or false
 git config --get --local  core.filemode
 ```
 
-Locally
+Locally (works best on vagrant)
 ``` shell
 git config --local core.fileMode false
 ```
