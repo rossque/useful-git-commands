@@ -24,13 +24,18 @@ git config --global user.email <email-address>
 
 ### Prevent GIT checking file permissions
 
-Locally
+Check permissions are true or false
 ``` shell
 git config --get --local  core.filemode
 ```
 
+Locally
+``` shell
+git config --local core.fileMode false
+```
+
 Globally
 ``` shell
-git config --get --global  core.filemode
+git config --global core.fileMode false
 ```
 
