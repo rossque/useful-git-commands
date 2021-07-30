@@ -39,3 +39,14 @@ Globally
 git config --global core.fileMode false
 ```
 
+### Deleting branches
+
+Delete a branch locally
+``` shell
+git branch -d branch-name
+```
+
+Delete a branch remotely
+``` shell
+git push origin --delete branch-name
+```
