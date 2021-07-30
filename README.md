@@ -50,3 +50,11 @@ Delete a branch remotely
 ``` shell
 git push origin --delete branch-name
 ```
+
+### Reccommended global GIT configurations
+
+``` shell
+git config --global pull.rebase true
+git config --global fetch.prune true
+git config --global diff.colorMoved zebra
+```
